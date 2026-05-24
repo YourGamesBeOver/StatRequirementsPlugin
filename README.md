@@ -71,9 +71,5 @@ src/
     ride-stat-requirements.json   Per-ride-type threshold data
 ```
 
-## License
-
-MIT — see [package.json](package.json).
-
 ## Special Thanks
 Thanks to [Marcel Vos](https://www.youtube.com/@MarcelVos) for the inspiration!
