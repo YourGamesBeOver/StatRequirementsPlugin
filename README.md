@@ -6,6 +6,8 @@ OpenRCT2 (and the original RollerCoaster Tycoon 2) penalize the excitement, inte
 
 > ⚠️ This plugin requires OpenRCT2 plugin API version 114, which is currently not released yet! See PR [#26612](https://github.com/OpenRCT2/OpenRCT2/pull/26612).
 
+![Screenshot of plugin ui](./img/screenshot.png)
+
 ## Features
 
 - Adds a **Stat Requirements** entry to the OpenRCT2 map menu.
@@ -23,6 +25,7 @@ OpenRCT2 (and the original RollerCoaster Tycoon 2) penalize the excitement, inte
 Due to a limitation of how the game calculates the requirement around number of reversal elements, the plugin's calculation has to differ slightly from the game's. Namely, the game counts the number of reversal elements the train actually experiences, while the plugin counts how many are on the track at all.
 tl;dr: The plugin will say you meet the "number of reversals" requirement if the ride _has_ any reversal elements rather than if the train actually goes over any. 
 
+If you spot anything incorrect, please raise an issue! Math is hard!
 
 ## Requirements
 
