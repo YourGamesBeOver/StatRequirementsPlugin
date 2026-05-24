@@ -1,0 +1,1564 @@
+{
+  "0": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "1": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "2": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 8,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 27,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLateralGs",
+      "threshold": 1.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 370,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "3": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.3,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "4": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "5": [
+    {
+      "type": "RequirementLength",
+      "threshold": 200,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementUnsheltered",
+      "threshold": 4,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "6": [
+    {
+      "type": "RequirementLength",
+      "threshold": 170,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementUnsheltered",
+      "threshold": 4,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "7": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 18,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLateralGs",
+      "threshold": 1.3,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 200,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "9": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 8,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLateralGs",
+      "threshold": 1.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 170,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 3,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "10": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 4,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 18,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 240,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "11": [
+    {
+      "type": "RequirementLength",
+      "threshold": 200,
+      "e": 8,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "13": [
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 27,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLateralGs",
+      "threshold": 1.2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 370,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "14": [
+    {
+      "type": "RequirementUnsheltered",
+      "threshold": 5,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "15": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 14,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "16": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 140,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "17": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 8,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 370,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "18": [
+    {
+      "type": "RequirementLength",
+      "threshold": 150,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementStations",
+      "threshold": 1,
+      "e": 0,
+      "i": 2,
+      "n": 1
+    },
+    {
+      "type": "RequirementUnsheltered",
+      "threshold": 4,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "19": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "22": [
+    {
+      "type": "RequirementUnsheltered",
+      "threshold": 6,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "23": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "24": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 200,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "42": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 34,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "43": [
+    {
+      "type": "RequirementUnsheltered",
+      "threshold": 5,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "44": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 20,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "50": [
+    {
+      "type": "RequirementLength",
+      "threshold": 180,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "51": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "52": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 370,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "53": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 11,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 250,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "54": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLateralGs",
+      "threshold": 1.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 170,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "55": [
+    {
+      "type": "RequirementInversions",
+      "threshold": 1,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 1,
+      "n": 1,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 1,
+      "n": 1,
+      "relaxIfInversions": true
+    }
+  ],
+  "56": [
+    {
+      "type": "RequirementInversions",
+      "threshold": 1,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 1,
+      "n": 1,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 1,
+      "n": 1,
+      "relaxIfInversions": true
+    }
+  ],
+  "57": [
+    {
+      "type": "RequirementInversions",
+      "threshold": 1,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 1,
+      "n": 1,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 1,
+      "n": 1,
+      "relaxIfInversions": true
+    }
+  ],
+  "58": [
+    {
+      "type": "RequirementInversions",
+      "threshold": 1,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 1,
+      "n": 1,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 1,
+      "n": 1,
+      "relaxIfInversions": true
+    }
+  ],
+  "59": [
+    {
+      "type": "RequirementLength",
+      "threshold": 210,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "60": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "61": [
+    {
+      "type": "RequirementLength",
+      "threshold": 160,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "62": [
+    {
+      "type": "RequirementInversions",
+      "threshold": 1,
+      "e": 4,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "63": [
+    {
+      "type": "RequirementLength",
+      "threshold": 170,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementUnsheltered",
+      "threshold": 4,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "64": [
+    {
+      "type": "RequirementInversions",
+      "threshold": 1,
+      "e": 4,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "65": [
+    {
+      "type": "RequirementReversals",
+      "threshold": 1,
+      "e": 8,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 200,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "66": [
+    {
+      "type": "RequirementInversions",
+      "threshold": 1,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 1,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "67": [
+    {
+      "type": "RequirementHoles",
+      "threshold": 1,
+      "e": 8,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "68": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 16,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "72": [
+    {
+      "type": "RequirementLength",
+      "threshold": 140,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "73": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.3,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "74": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 8,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementSplashdown",
+      "threshold": null,
+      "e": 8,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "75": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 34,
+      "e": 4,
+      "i": 1,
+      "n": 1
+    }
+  ],
+  "76": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 8,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLateralGs",
+      "threshold": 1.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 170,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 3,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "86": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 20,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "87": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "88": [
+    {
+      "type": "RequirementLength",
+      "threshold": 270,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "90": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 10,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "91": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "92": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2,
+      "relaxIfInversions": true
+    }
+  ],
+  "93": [
+    {
+      "type": "RequirementLength",
+      "threshold": 200,
+      "e": 8,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "94": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLateralGs",
+      "threshold": 1.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 170,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "95": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 6,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 15,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "96": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 14,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "97": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 14,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.4,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "98": [
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 11,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 370,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "99": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 1,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 1,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 1,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 370,
+      "e": 2,
+      "i": 1,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 1,
+      "n": 2
+    }
+  ],
+  "100": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.5,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "101": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 10,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ],
+  "102": [
+    {
+      "type": "RequirementDropHeight",
+      "threshold": 12,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementMaxSpeed",
+      "threshold": 22,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNegativeGs",
+      "threshold": 0.1,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementLength",
+      "threshold": 370,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    },
+    {
+      "type": "RequirementNumDrops",
+      "threshold": 2,
+      "e": 2,
+      "i": 2,
+      "n": 2
+    }
+  ]
+}

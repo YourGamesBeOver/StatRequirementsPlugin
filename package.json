@@ -4,8 +4,9 @@
   "type": "module",
   "description": "OpenRCT2 plugin for inspecting rides in terms of their stat requirements",
   "scripts": {
-    "build": "esbuild src/plugin.ts --bundle --minify --outfile=dist/plugin.js",
-    "watch": "esbuild src/plugin.ts --bundle --minify --outfile=dist/plugin.js --watch"
+    "build": "esbuild src/plugin.ts --bundle --minify --outfile=dist/StatRequirementsPlugin.js",
+    "watch": "esbuild src/plugin.ts --bundle --minify --outfile=dist/StatRequirementsPlugin.js --watch",
+    "watchInstalled": "esbuild src/plugin.ts --bundle --minify --outfile=../OneDrive/Documents/OpenRCT2/plugin/StatRequirementsPlugin.js --watch"
   },
   "author": "Steven Miller",
   "license": "MIT",
