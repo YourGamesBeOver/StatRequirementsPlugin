@@ -124,6 +124,17 @@ export class StatRequirementNegativeGs extends StatRequirement {
     public override getFormattedValue(value: number): string {
         return context.formatString(`{BLACK}${value}{WHITE}`);
     }
+
+    public override isMetByRide(ride: Ride): boolean {
+        if (this.relaxIfInversions && ride.numInversions > 0) {
+            return true;
+        }
+        const value = this.extractValueFromRide(ride);
+        if (value === null) {
+            return false; // if we can't get the stat, assume it's not met
+        }
+        return value < this.threshold; // negative Gs are less than 0, so we check if it's less than the threshold
+    }
 }
 
 export class StatRequirementLateralGs extends StatRequirement {
