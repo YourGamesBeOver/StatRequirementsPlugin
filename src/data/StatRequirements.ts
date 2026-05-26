@@ -55,7 +55,7 @@ export abstract class StatRequirement {
 
 export class StatRequirementLength extends StatRequirement {
     public override extractValueFromRide(ride: Ride): number {
-        return ride.rideLength;
+        return ride.stations[0]?.length || 0;
     }
 
     public override getDisplayName() {
