@@ -80,12 +80,22 @@ function refreshStatsForSelectedRide(window: Window) {
             if (!isTested) {
                 statText += "(Ride not yet tested!)\n";
             }
+            let totalEDivisor = 1;
+            let totalIDivisor = 1;
+            let totalNDivisor = 1;
+            let anyMissing = false;
             for (const req of statRequirements) {
                 if (isTested) {
                     if (req.isMetByRide(selectedRide)) {
                         statText += context.formatString("{GREEN}\u2713{WHITE} "); // checkmark
                     } else {
                         statText += context.formatString("{RED}X{WHITE} "); // x mark
+                        anyMissing = true;
+                        // if the requirement isn't met, update the divisors
+                        // the "zero out" case is handled automatically because we multiply the divisor by the requirement's e/i/n value, and if that value is 0 then the divisor becomes 0 and stays there
+                        totalEDivisor *= req.e;
+                        totalIDivisor *= req.i;
+                        totalNDivisor *= req.n;
                     }
                 } else {
                     statText += context.formatString("{GRAY}?{WHITE} "); // question mark
@@ -102,11 +112,22 @@ function refreshStatsForSelectedRide(window: Window) {
                 }
                 statText += "\n\n";
             }
+            if (isTested && anyMissing) {
+                statText += context.formatString(`{RED}Total Penality:\nE${formatPenality(totalEDivisor)}, I${formatPenality(totalIDivisor)}, N${formatPenality(totalNDivisor)}{WHITE}`);
+            }
+
             window.findWidget<LabelWidget>("output-label").text = statText;
         }
     } else {
         window.findWidget<LabelWidget>("output-label").text = "No ride selected";
     }
+}
+
+function formatPenality(value: number): string {
+    if (value == 0) {
+        return "=0";
+    }
+    return `/=${value}`;
 }
 
 function bindHooks(window: Window, hooks: IDisposable[]) {
